@@ -1,0 +1,158 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: #131a22;
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    padding: 5px;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.header__location {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__location:hover {
+    outline: 1px solid white;
+}
+
+.location__icon {
+    color: white;
+}
+
+.location__info {
+    color: white;
+}
+
+.location__info > p {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.location__info > h5 {
+    font-weight: 700;
+}
+
+.header__input {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+.input__filter > p {
+    padding: 5px;
+    height: 22px !important;
+    background-color: lightgray;
+}
+
+.input__search {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    min-width: 125px;
+}
+
+.input__icon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+
+.header__flag {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__flag:hover {
+    outline: 1px solid white;
+}
+
+.header__user {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header__user > p {
+    color: lightgray;
+    font-size: 12px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 13ch;
+}
+
+.header__user > h5 {
+    font-weight: 700;
+    color: white;
+}
+
+.header__user:hover {
+    outline: 1px solid white;
+}
+
+.header__orders {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header__orders:hover {
+    outline: 1px solid white;
+}
+
+.header__orders > p {
+    color: lightgray;
+    font-size: 12px;
+}
+
+.header__orders > h5 {
+    font-weight: 700;
+    color: white;
+}
+
+.header__cart {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.header__cartCount {
+    font-size: 16px;
+    font-weight: 700;;
+    color: #ff9900;
+    margin-left: -18px;
+    margin-bottom: 24px;
+    margin-right: 7px;
+}
+
+.header__cart > h5 {
+    font-weight: 700;
+}
